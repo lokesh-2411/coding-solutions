@@ -36,9 +36,9 @@ Output: [[],[0]]
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms  
-**Memory:** 8.3 MB  
-**Submitted:** 2026-10-02T07:25:45.781Z  
+**Runtime:** 4 ms (beats 13.01%)  
+**Memory:** 11.1 MB (beats 19.41%)  
+**Submitted:** 2026-10-02T07:25:50.801Z  
 
 ```cpp
 class Solution {
