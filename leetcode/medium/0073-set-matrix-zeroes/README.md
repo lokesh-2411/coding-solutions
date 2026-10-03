@@ -47,8 +47,8 @@ Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
 
 **Language:** C++  
 **Runtime:** 51 ms (beats 5.46%)  
-**Memory:** 22.2 MB (beats 5.19%)  
-**Submitted:** 2026-10-03T08:14:15.346Z  
+**Memory:** 22 MB (beats 5.19%)  
+**Submitted:** 2026-10-03T08:15:06.284Z  
 
 ```cpp
 class Solution {
