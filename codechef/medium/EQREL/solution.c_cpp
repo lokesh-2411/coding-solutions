@@ -9,8 +9,8 @@ int main() {
 	vector<int> Arr(N);
 	for(int i = 0 ; i < N ; i++) cin >> Arr[i];
 	
-	int Min = *min_element(Arr.begin(), Arr.end());
-	int Cost = 0;
+	long long Min = *min_element(Arr.begin(), Arr.end());
+	long long Cost = 0;
 	
 	for(int i = 0 ; i < N ; i++) Cost += (Arr[i] - Min);
 	
