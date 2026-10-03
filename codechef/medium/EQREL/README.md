@@ -82,7 +82,7 @@ Therefore, no energy is required.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T16:39:06.523Z  
+**Submitted:** 2026-10-03T16:41:06.808Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -96,8 +96,8 @@ int main() {
 	vector<int> Arr(N);
 	for(int i = 0 ; i < N ; i++) cin >> Arr[i];
 	
-	int Min = *min_element(Arr.begin(), Arr.end());
-	int Cost = 0;
+	long long Min = *min_element(Arr.begin(), Arr.end());
+	long long Cost = 0;
 	
 	for(int i = 0 ; i < N ; i++) Cost += (Arr[i] - Min);
 	
