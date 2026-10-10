@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long X, A, Y, B, D;
+    if (cin >> X >> A >> Y >> B >> D) {
+        long long total_revenue = (X * A) + (Y * B);
+        if (total_revenue >= D) {
+            cout << "YES\n";
+        } else {
+            cout << "NO\n";
+        }
+    }
+    return 0;
+}
