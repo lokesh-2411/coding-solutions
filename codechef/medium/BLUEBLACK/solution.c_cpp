@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int A, B;
+	cin >> A >> B;
+	
+	int Tot1 = 3 * A;
+	int Tot2 = A + B;
+	
+	cout << min(Tot2, Tot1) << endl;
+
+}
