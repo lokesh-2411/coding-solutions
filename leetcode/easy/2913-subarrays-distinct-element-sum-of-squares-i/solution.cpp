@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int sumCounts(vector<int>& nums) {
+        int n = nums.size();
+        int total = 0;
+        for(int i = 0 ; i < n ; i++){
+            bool seen[101] = {false};
+            int okay = 0;
+            for(int j = i ; j < n ; j++){
+                if(!seen[nums[j]]){
+                    seen[nums[j]] = true;
+                    okay++;
+                }
+                total += okay * okay;
+            }
+        }
+        return total;
+    }
+};
