@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int Test;
+	cin >> Test;
+	
+	while(Test--){
+	     int N, K;
+	     cin >> N >> K;
+	     vector<int> Arr(N);
+	     
+	     for(int i = 0 ; i < N ; i++) cin >> Arr[i];
+	     
+	     sort(Arr.rbegin(), Arr.rend());
+	     int Val = 0;
+	     
+	     for(int i = 0 ; i < K ; i++) Val += Arr[i];
+	     
+	     cout << Val << endl;
+	}
+
+}
