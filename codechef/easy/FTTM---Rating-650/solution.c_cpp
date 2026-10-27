@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string s, t;
+    getline(cin, s);
+    getline(cin, t);
+
+    if (!s.empty() && s.back() == '\r') s.pop_back();
+    if (!t.empty() && t.back() == '\r') t.pop_back();
+
+    if (s.find(t) != string::npos) cout << "YES\n";
+    else cout << "NO\n";
+    return 0;
+}
