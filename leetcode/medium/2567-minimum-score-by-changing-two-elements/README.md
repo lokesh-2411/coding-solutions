@@ -50,9 +50,9 @@ C++
 ## Solution
 
 **Language:** C++  
-**Runtime:** 17 ms (beats 24.35%)  
-**Memory:** 37.9 MB (beats 41.45%)  
-**Submitted:** 2026-11-19T10:55:16.783Z  
+**Runtime:** 15 ms (beats 62.18%)  
+**Memory:** 37.8 MB (beats 88.60%)  
+**Submitted:** 2026-11-19T10:53:37.206Z  
 
 ```cpp
 class Solution {
